@@ -1,0 +1,6 @@
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Utilities\bin\Debug\Utilities.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Utilities\obj\Debug\Utilities.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Utilities\obj\Debug\Utilities.pdb

@@ -25,7 +25,6 @@ namespace InfraDataAccess.DAO
             {
                 obj = new Usuario();
                 context.Usuarios.Add(obj);
-
             }
 
             obj.tipo_usu = element.tipo_usu;

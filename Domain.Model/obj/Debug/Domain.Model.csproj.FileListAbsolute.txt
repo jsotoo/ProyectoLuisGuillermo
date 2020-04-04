@@ -13,3 +13,20 @@ C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\obj\D
 C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\obj\Debug\Domain.Model.csproj.CopyComplete
 C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\obj\Debug\Domain.Model.dll
 C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\obj\Debug\Domain.Model.pdb
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\Domain.Model.dll.config
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\Domain.Model.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\Domain.Model.pdb
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\InfraDataAccess.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\Utilities.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\InfraDataAccess.pdb
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\InfraDataAccess.dll.config
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\Utilities.pdb
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\obj\Debug\Domain.Model.csprojAssemblyReference.cache
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\obj\Debug\Domain.Model.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\obj\Debug\Domain.Model.csproj.CopyComplete
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\obj\Debug\Domain.Model.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\Domain.Model\obj\Debug\Domain.Model.pdb

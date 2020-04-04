@@ -10,3 +10,15 @@ C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\ob
 C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\obj\Debug\InfraDataAccess.csproj.CopyComplete
 C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\obj\Debug\InfraDataAccess.dll
 C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\obj\Debug\InfraDataAccess.pdb
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\bin\Debug\InfraDataAccess.dll.config
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\bin\Debug\InfraDataAccess.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\bin\Debug\InfraDataAccess.pdb
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\obj\Debug\InfraDataAccess.csprojAssemblyReference.cache
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\obj\Debug\InfraDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\obj\Debug\InfraDataAccess.csproj.CopyComplete
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\obj\Debug\InfraDataAccess.dll
+C:\Users\Luis\Documents\Git\jonathan\ProyectoLuisGuillermo\InfraDataAccess\obj\Debug\InfraDataAccess.pdb

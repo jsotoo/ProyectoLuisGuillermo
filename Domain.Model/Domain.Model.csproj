@@ -63,6 +63,10 @@
       <Project>{48e7505e-6f58-4fdd-b094-58de4f56a93f}</Project>
       <Name>InfraDataAccess</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{2b15fb5a-7074-4b73-8f0f-ef78ff6dd2c6}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
