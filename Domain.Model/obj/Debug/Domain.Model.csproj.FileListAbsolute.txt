@@ -1,0 +1,15 @@
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\Domain.Model.dll.config
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\Domain.Model.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\Domain.Model.pdb
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\EntityFramework.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\InfraDataAccess.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\InfraDataAccess.pdb
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\InfraDataAccess.dll.config
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\EntityFramework.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\obj\Debug\Domain.Model.csprojResolveAssemblyReference.cache
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\obj\Debug\Domain.Model.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\obj\Debug\Domain.Model.csproj.CopyComplete
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\obj\Debug\Domain.Model.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\Domain.Model\obj\Debug\Domain.Model.pdb

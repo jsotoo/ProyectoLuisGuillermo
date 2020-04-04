@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CeramicasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Bodega">
+    <Key>
+      <PropertyRef Name="id_bog" />
+    </Key>
+    <Property Name="id_bog" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_prod" Type="Int32" Nullable="false" />
+    <Property Name="cantidad" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK_Bodega_Producto" FromRole="Bodega" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="id_categ" />
+    </Key>
+    <Property Name="id_categ" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom_categ" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Productos" Relationship="Self.FK_Productos_Categorias" FromRole="Categorias" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="Devolucione">
+    <Key>
+      <PropertyRef Name="id_devolucion" />
+    </Key>
+    <Property Name="id_devolucion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="queja_devolucion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DevolucionesXProductos" Relationship="Self.FK_DevolucionesXProductos_Devoluciones" FromRole="Devoluciones" ToRole="DevolucionesXProductos" />
+  </EntityType>
+  <EntityType Name="Gasto">
+    <Key>
+      <PropertyRef Name="id_gasto" />
+    </Key>
+    <Property Name="id_gasto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="total" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="GastosXProductos" Relationship="Self.FK_GastosXProductos_Gastos" FromRole="Gastos" ToRole="GastosXProductos" />
+  </EntityType>
+  <EntityType Name="Marca">
+    <Key>
+      <PropertyRef Name="id_marca" />
+    </Key>
+    <Property Name="id_marca" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom_marca" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tel_marca" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Productos" Relationship="Self.FK_Productos_Marcas" FromRole="Marcas" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="id_prod" />
+    </Key>
+    <Property Name="id_prod" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_prod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descp_prod" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="id_categ" Type="Int32" Nullable="false" />
+    <Property Name="id_marca" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Bodegas" Relationship="Self.FK_Bodega_Producto" FromRole="Productos" ToRole="Bodega" />
+    <NavigationProperty Name="Categoria" Relationship="Self.FK_Productos_Categorias" FromRole="Productos" ToRole="Categorias" />
+    <NavigationProperty Name="Marca" Relationship="Self.FK_Productos_Marcas" FromRole="Productos" ToRole="Marcas" />
+    <NavigationProperty Name="DevolucionesXProductos" Relationship="Self.FK_DevolucionesXProductos_Productos" FromRole="Productos" ToRole="DevolucionesXProductos" />
+    <NavigationProperty Name="GastosXProductos" Relationship="Self.FK_GastosXProductos_Productos" FromRole="Productos" ToRole="GastosXProductos" />
+    <NavigationProperty Name="ProveedoresXProductos" Relationship="Self.FK_ProveedoresXProductos_Productos" FromRole="Productos" ToRole="ProveedoresXProductos" />
+    <NavigationProperty Name="VentasXProductos" Relationship="Self.FK_VentasXProductos_Productos" FromRole="Productos" ToRole="VentasXProductos" />
+  </EntityType>
+  <EntityType Name="Proveedore">
+    <Key>
+      <PropertyRef Name="id_prov" />
+    </Key>
+    <Property Name="id_prov" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ciudad_prov" Type="Int32" Nullable="false" />
+    <Property Name="id_per" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ProveedoresXProductos" Relationship="Self.FK_ProveedoresXProductos_Proveedores" FromRole="Proveedores" ToRole="ProveedoresXProductos" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="id_usu" />
+      <PropertyRef Name="tipo_usu" />
+    </Key>
+    <Property Name="id_usu" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tipo_usu" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="nombres_usu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellidos_usu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono_usu" Type="Int32" />
+    <NavigationProperty Name="Ventas" Relationship="Self.FK_Ventas_Usuario" FromRole="Usuario" ToRole="Ventas" />
+  </EntityType>
+  <EntityType Name="Venta">
+    <Key>
+      <PropertyRef Name="id_venta" />
+    </Key>
+    <Property Name="id_venta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fecha_venta" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="total_venta" Type="Int32" Nullable="false" />
+    <Property Name="id_usu" Type="Int32" Nullable="false" />
+    <Property Name="tipo_usu" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Ventas_Usuario" FromRole="Ventas" ToRole="Usuario" />
+    <NavigationProperty Name="VentasXProductos" Relationship="Self.FK_VentasXProductos_Ventas" FromRole="Ventas" ToRole="VentasXProductos" />
+  </EntityType>
+  <EntityType Name="DevolucionesXProducto">
+    <Key>
+      <PropertyRef Name="id_dev_prod" />
+      <PropertyRef Name="id_devolucion" />
+      <PropertyRef Name="id_prod" />
+    </Key>
+    <Property Name="id_dev_prod" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_devolucion" Type="Int32" Nullable="false" />
+    <Property Name="id_prod" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Devolucione" Relationship="Self.FK_DevolucionesXProductos_Devoluciones" FromRole="DevolucionesXProductos" ToRole="Devoluciones" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK_DevolucionesXProductos_Productos" FromRole="DevolucionesXProductos" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="GastosXProducto">
+    <Key>
+      <PropertyRef Name="id_gas_prod" />
+      <PropertyRef Name="id_gasto" />
+      <PropertyRef Name="id_prod" />
+    </Key>
+    <Property Name="id_gas_prod" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_gasto" Type="Int32" Nullable="false" />
+    <Property Name="id_prod" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Gasto" Relationship="Self.FK_GastosXProductos_Gastos" FromRole="GastosXProductos" ToRole="Gastos" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK_GastosXProductos_Productos" FromRole="GastosXProductos" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="ProveedoresXProducto">
+    <Key>
+      <PropertyRef Name="id_prov_prod" />
+      <PropertyRef Name="id_prov" />
+      <PropertyRef Name="id_prod" />
+    </Key>
+    <Property Name="id_prov_prod" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_prov" Type="Int32" Nullable="false" />
+    <Property Name="id_prod" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK_ProveedoresXProductos_Productos" FromRole="ProveedoresXProductos" ToRole="Productos" />
+    <NavigationProperty Name="Proveedore" Relationship="Self.FK_ProveedoresXProductos_Proveedores" FromRole="ProveedoresXProductos" ToRole="Proveedores" />
+  </EntityType>
+  <EntityType Name="VentasXProducto">
+    <Key>
+      <PropertyRef Name="id_ven_prod" />
+      <PropertyRef Name="id_venta" />
+      <PropertyRef Name="id_prod" />
+    </Key>
+    <Property Name="id_ven_prod" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_venta" Type="Int32" Nullable="false" />
+    <Property Name="id_prod" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK_VentasXProductos_Productos" FromRole="VentasXProductos" ToRole="Productos" />
+    <NavigationProperty Name="Venta" Relationship="Self.FK_VentasXProductos_Ventas" FromRole="VentasXProductos" ToRole="Ventas" />
+  </EntityType>
+  <Association Name="FK_Bodega_Producto">
+    <End Role="Productos" Type="Self.Producto" Multiplicity="1" />
+    <End Role="Bodega" Type="Self.Bodega" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="id_prod" />
+      </Principal>
+      <Dependent Role="Bodega">
+        <PropertyRef Name="id_prod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Productos_Categorias">
+    <End Role="Categorias" Type="Self.Categoria" Multiplicity="1" />
+    <End Role="Productos" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorias">
+        <PropertyRef Name="id_categ" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="id_categ" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DevolucionesXProductos_Devoluciones">
+    <End Role="Devoluciones" Type="Self.Devolucione" Multiplicity="1" />
+    <End Role="DevolucionesXProductos" Type="Self.DevolucionesXProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Devoluciones">
+        <PropertyRef Name="id_devolucion" />
+      </Principal>
+      <Dependent Role="DevolucionesXProductos">
+        <PropertyRef Name="id_devolucion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GastosXProductos_Gastos">
+    <End Role="Gastos" Type="Self.Gasto" Multiplicity="1" />
+    <End Role="GastosXProductos" Type="Self.GastosXProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gastos">
+        <PropertyRef Name="id_gasto" />
+      </Principal>
+      <Dependent Role="GastosXProductos">
+        <PropertyRef Name="id_gasto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Productos_Marcas">
+    <End Role="Marcas" Type="Self.Marca" Multiplicity="1" />
+    <End Role="Productos" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marcas">
+        <PropertyRef Name="id_marca" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="id_marca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DevolucionesXProductos_Productos">
+    <End Role="Productos" Type="Self.Producto" Multiplicity="1" />
+    <End Role="DevolucionesXProductos" Type="Self.DevolucionesXProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="id_prod" />
+      </Principal>
+      <Dependent Role="DevolucionesXProductos">
+        <PropertyRef Name="id_prod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GastosXProductos_Productos">
+    <End Role="Productos" Type="Self.Producto" Multiplicity="1" />
+    <End Role="GastosXProductos" Type="Self.GastosXProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="id_prod" />
+      </Principal>
+      <Dependent Role="GastosXProductos">
+        <PropertyRef Name="id_prod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProveedoresXProductos_Productos">
+    <End Role="Productos" Type="Self.Producto" Multiplicity="1" />
+    <End Role="ProveedoresXProductos" Type="Self.ProveedoresXProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="id_prod" />
+      </Principal>
+      <Dependent Role="ProveedoresXProductos">
+        <PropertyRef Name="id_prod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VentasXProductos_Productos">
+    <End Role="Productos" Type="Self.Producto" Multiplicity="1" />
+    <End Role="VentasXProductos" Type="Self.VentasXProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productos">
+        <PropertyRef Name="id_prod" />
+      </Principal>
+      <Dependent Role="VentasXProductos">
+        <PropertyRef Name="id_prod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProveedoresXProductos_Proveedores">
+    <End Role="Proveedores" Type="Self.Proveedore" Multiplicity="1" />
+    <End Role="ProveedoresXProductos" Type="Self.ProveedoresXProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedores">
+        <PropertyRef Name="id_prov" />
+      </Principal>
+      <Dependent Role="ProveedoresXProductos">
+        <PropertyRef Name="id_prov" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ventas_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Ventas" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="id_usu" />
+        <PropertyRef Name="tipo_usu" />
+      </Principal>
+      <Dependent Role="Ventas">
+        <PropertyRef Name="id_usu" />
+        <PropertyRef Name="tipo_usu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VentasXProductos_Ventas">
+    <End Role="Ventas" Type="Self.Venta" Multiplicity="1" />
+    <End Role="VentasXProductos" Type="Self.VentasXProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ventas">
+        <PropertyRef Name="id_venta" />
+      </Principal>
+      <Dependent Role="VentasXProductos">
+        <PropertyRef Name="id_venta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CeramicasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bodegas" EntityType="Self.Bodega" />
+    <EntitySet Name="Categorias" EntityType="Self.Categoria" />
+    <EntitySet Name="Devoluciones" EntityType="Self.Devolucione" />
+    <EntitySet Name="Gastos" EntityType="Self.Gasto" />
+    <EntitySet Name="Marcas" EntityType="Self.Marca" />
+    <EntitySet Name="Productos" EntityType="Self.Producto" />
+    <EntitySet Name="Proveedores" EntityType="Self.Proveedore" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuario" />
+    <EntitySet Name="Ventas" EntityType="Self.Venta" />
+    <EntitySet Name="DevolucionesXProductos" EntityType="Self.DevolucionesXProducto" />
+    <EntitySet Name="GastosXProductos" EntityType="Self.GastosXProducto" />
+    <EntitySet Name="ProveedoresXProductos" EntityType="Self.ProveedoresXProducto" />
+    <EntitySet Name="VentasXProductos" EntityType="Self.VentasXProducto" />
+    <AssociationSet Name="FK_Bodega_Producto" Association="Self.FK_Bodega_Producto">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="Bodega" EntitySet="Bodegas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Productos_Categorias" Association="Self.FK_Productos_Categorias">
+      <End Role="Categorias" EntitySet="Categorias" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DevolucionesXProductos_Devoluciones" Association="Self.FK_DevolucionesXProductos_Devoluciones">
+      <End Role="Devoluciones" EntitySet="Devoluciones" />
+      <End Role="DevolucionesXProductos" EntitySet="DevolucionesXProductos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GastosXProductos_Gastos" Association="Self.FK_GastosXProductos_Gastos">
+      <End Role="Gastos" EntitySet="Gastos" />
+      <End Role="GastosXProductos" EntitySet="GastosXProductos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Productos_Marcas" Association="Self.FK_Productos_Marcas">
+      <End Role="Marcas" EntitySet="Marcas" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DevolucionesXProductos_Productos" Association="Self.FK_DevolucionesXProductos_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="DevolucionesXProductos" EntitySet="DevolucionesXProductos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GastosXProductos_Productos" Association="Self.FK_GastosXProductos_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="GastosXProductos" EntitySet="GastosXProductos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProveedoresXProductos_Productos" Association="Self.FK_ProveedoresXProductos_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="ProveedoresXProductos" EntitySet="ProveedoresXProductos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VentasXProductos_Productos" Association="Self.FK_VentasXProductos_Productos">
+      <End Role="Productos" EntitySet="Productos" />
+      <End Role="VentasXProductos" EntitySet="VentasXProductos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProveedoresXProductos_Proveedores" Association="Self.FK_ProveedoresXProductos_Proveedores">
+      <End Role="Proveedores" EntitySet="Proveedores" />
+      <End Role="ProveedoresXProductos" EntitySet="ProveedoresXProductos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ventas_Usuario" Association="Self.FK_Ventas_Usuario">
+      <End Role="Usuario" EntitySet="Usuarios" />
+      <End Role="Ventas" EntitySet="Ventas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VentasXProductos_Ventas" Association="Self.FK_VentasXProductos_Ventas">
+      <End Role="Ventas" EntitySet="Ventas" />
+      <End Role="VentasXProductos" EntitySet="VentasXProductos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

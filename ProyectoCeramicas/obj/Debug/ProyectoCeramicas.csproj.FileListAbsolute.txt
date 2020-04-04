@@ -1,0 +1,159 @@
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\ApplicationInsights.config
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\ProyectoCeramicas.dll.config
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\ProyectoCeramicas.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\ProyectoCeramicas.pdb
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\csc.exe
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\csc.exe.config
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\csc.rsp
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\csi.exe
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\csi.rsp
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\System.AppContext.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\vbc.exe
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\vbc.exe.config
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\vbc.rsp
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\VBCSCompiler.exe
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Antlr3.Runtime.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\ApplicationCore.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Infraestructure.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.Web.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Newtonsoft.Json.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.Helpers.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.Mvc.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.Optimization.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.Razor.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.WebPages.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.WebPages.Razor.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\WebGrease.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\EntityFramework.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\ApplicationCore.pdb
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\ApplicationCore.dll.config
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Infraestructure.pdb
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.Helpers.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.Mvc.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.Optimization.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.Razor.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.WebPages.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\System.Web.WebPages.Razor.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Antlr3.Runtime.pdb
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Newtonsoft.Json.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\Microsoft.AI.Web.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\EntityFramework.xml
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\es\System.Web.Helpers.resources.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\es\System.Web.Mvc.resources.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\es\System.Web.Optimization.resources.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\es\System.Web.Razor.resources.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\es\System.Web.WebPages.resources.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.csprojAssemblyReference.cache
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.csproj.CoreCompileInputs.cache
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.csproj.CopyComplete
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.dll
+C:\Users\jonathan.soto\Desktop\Proyectos Jonathan\Aula Matriz\CERAMICAS\ProyectoCeramicas\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.pdb
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\ApplicationInsights.config
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\ProyectoCeramicas.dll.config
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\ProyectoCeramicas.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\ProyectoCeramicas.pdb
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\csc.exe
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\csc.exe.config
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\csc.rsp
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\csi.exe
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\csi.rsp
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\System.AppContext.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\vbc.exe
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\vbc.exe.config
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\vbc.rsp
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\VBCSCompiler.exe
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Antlr3.Runtime.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.Web.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.ApplicationInsights.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Newtonsoft.Json.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.Helpers.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.Mvc.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.Optimization.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.Razor.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.WebPages.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.WebPages.Razor.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\WebGrease.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.Helpers.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.Mvc.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.Optimization.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.Razor.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.WebPages.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\System.Web.WebPages.Razor.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Antlr3.Runtime.pdb
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Newtonsoft.Json.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.ApplicationInsights.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\Microsoft.AI.Web.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\es\System.Web.Helpers.resources.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\es\System.Web.Mvc.resources.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\es\System.Web.Optimization.resources.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\es\System.Web.Razor.resources.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\es\System.Web.WebPages.resources.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.csprojResolveAssemblyReference.cache
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.csproj.CopyComplete
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\ProyectoCeramicas\obj\Debug\ProyectoCeramicas.pdb

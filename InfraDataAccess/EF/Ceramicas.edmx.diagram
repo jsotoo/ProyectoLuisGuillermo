@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ff4b9ad8de0d4fe7bbd7b36dd4123e6a" Name="Diagram1">
+        <EntityTypeShape EntityType="CeramicasModel.Bodega" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.Categoria" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.Devolucione" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.Gasto" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.Marca" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.Producto" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.Proveedore" Width="1.5" PointX="6" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.Usuario" Width="1.5" PointX="3.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.Venta" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.DevolucionesXProducto" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.GastosXProducto" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.ProveedoresXProducto" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="CeramicasModel.VentasXProducto" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="CeramicasModel.FK_Bodega_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_Productos_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_DevolucionesXProductos_Devoluciones" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_GastosXProductos_Gastos" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_Productos_Marcas" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_DevolucionesXProductos_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_GastosXProductos_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_ProveedoresXProductos_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_VentasXProductos_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_ProveedoresXProductos_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_Ventas_Usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="CeramicasModel.FK_VentasXProductos_Ventas" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

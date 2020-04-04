@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CeramicasModelStoreContainer" CdmEntityContainer="CeramicasEntities">
+    <EntitySetMapping Name="Bodegas">
+      <EntityTypeMapping TypeName="CeramicasModel.Bodega">
+        <MappingFragment StoreEntitySet="Bodega">
+          <ScalarProperty Name="id_bog" ColumnName="id_bog" />
+          <ScalarProperty Name="id_prod" ColumnName="id_prod" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categorias">
+      <EntityTypeMapping TypeName="CeramicasModel.Categoria">
+        <MappingFragment StoreEntitySet="Categorias">
+          <ScalarProperty Name="id_categ" ColumnName="id_categ" />
+          <ScalarProperty Name="nom_categ" ColumnName="nom_categ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Devoluciones">
+      <EntityTypeMapping TypeName="CeramicasModel.Devolucione">
+        <MappingFragment StoreEntitySet="Devoluciones">
+          <ScalarProperty Name="id_devolucion" ColumnName="id_devolucion" />
+          <ScalarProperty Name="queja_devolucion" ColumnName="queja_devolucion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gastos">
+      <EntityTypeMapping TypeName="CeramicasModel.Gasto">
+        <MappingFragment StoreEntitySet="Gastos">
+          <ScalarProperty Name="id_gasto" ColumnName="id_gasto" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marcas">
+      <EntityTypeMapping TypeName="CeramicasModel.Marca">
+        <MappingFragment StoreEntitySet="Marcas">
+          <ScalarProperty Name="id_marca" ColumnName="id_marca" />
+          <ScalarProperty Name="nom_marca" ColumnName="nom_marca" />
+          <ScalarProperty Name="tel_marca" ColumnName="tel_marca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="CeramicasModel.Producto">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="id_prod" ColumnName="id_prod" />
+          <ScalarProperty Name="nombre_prod" ColumnName="nombre_prod" />
+          <ScalarProperty Name="descp_prod" ColumnName="descp_prod" />
+          <ScalarProperty Name="id_categ" ColumnName="id_categ" />
+          <ScalarProperty Name="id_marca" ColumnName="id_marca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedores">
+      <EntityTypeMapping TypeName="CeramicasModel.Proveedore">
+        <MappingFragment StoreEntitySet="Proveedores">
+          <ScalarProperty Name="id_prov" ColumnName="id_prov" />
+          <ScalarProperty Name="ciudad_prov" ColumnName="ciudad_prov" />
+          <ScalarProperty Name="id_per" ColumnName="id_per" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="CeramicasModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="id_usu" ColumnName="id_usu" />
+          <ScalarProperty Name="tipo_usu" ColumnName="tipo_usu" />
+          <ScalarProperty Name="nombres_usu" ColumnName="nombres_usu" />
+          <ScalarProperty Name="Apellidos_usu" ColumnName="Apellidos_usu" />
+          <ScalarProperty Name="telefono_usu" ColumnName="telefono_usu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ventas">
+      <EntityTypeMapping TypeName="CeramicasModel.Venta">
+        <MappingFragment StoreEntitySet="Ventas">
+          <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+          <ScalarProperty Name="fecha_venta" ColumnName="fecha_venta" />
+          <ScalarProperty Name="total_venta" ColumnName="total_venta" />
+          <ScalarProperty Name="id_usu" ColumnName="id_usu" />
+          <ScalarProperty Name="tipo_usu" ColumnName="tipo_usu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DevolucionesXProductos">
+      <EntityTypeMapping TypeName="CeramicasModel.DevolucionesXProducto">
+        <MappingFragment StoreEntitySet="DevolucionesXProductos">
+          <ScalarProperty Name="id_dev_prod" ColumnName="id_dev_prod" />
+          <ScalarProperty Name="id_devolucion" ColumnName="id_devolucion" />
+          <ScalarProperty Name="id_prod" ColumnName="id_prod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GastosXProductos">
+      <EntityTypeMapping TypeName="CeramicasModel.GastosXProducto">
+        <MappingFragment StoreEntitySet="GastosXProductos">
+          <ScalarProperty Name="id_gas_prod" ColumnName="id_gas_prod" />
+          <ScalarProperty Name="id_gasto" ColumnName="id_gasto" />
+          <ScalarProperty Name="id_prod" ColumnName="id_prod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProveedoresXProductos">
+      <EntityTypeMapping TypeName="CeramicasModel.ProveedoresXProducto">
+        <MappingFragment StoreEntitySet="ProveedoresXProductos">
+          <ScalarProperty Name="id_prov_prod" ColumnName="id_prov_prod" />
+          <ScalarProperty Name="id_prov" ColumnName="id_prov" />
+          <ScalarProperty Name="id_prod" ColumnName="id_prod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VentasXProductos">
+      <EntityTypeMapping TypeName="CeramicasModel.VentasXProducto">
+        <MappingFragment StoreEntitySet="VentasXProductos">
+          <ScalarProperty Name="id_ven_prod" ColumnName="id_ven_prod" />
+          <ScalarProperty Name="id_venta" ColumnName="id_venta" />
+          <ScalarProperty Name="id_prod" ColumnName="id_prod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

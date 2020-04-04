@@ -1,0 +1,12 @@
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\bin\Debug\InfraDataAccess.dll.config
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\bin\Debug\InfraDataAccess.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\bin\Debug\InfraDataAccess.pdb
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\obj\Debug\InfraDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\obj\Debug\InfraDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\obj\Debug\InfraDataAccess.csproj.CopyComplete
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\obj\Debug\InfraDataAccess.dll
+C:\Users\JONATHAN\Desktop\Proyecto Ceramicas\ceramicas-master\InfraDataAccess\obj\Debug\InfraDataAccess.pdb
